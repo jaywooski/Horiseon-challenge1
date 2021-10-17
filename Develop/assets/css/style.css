@@ -1,3 +1,4 @@
+/* Basic styling throughout entire document */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,9 +18,11 @@ a {
 p {
     font-size: 16px;
 }
+/* Basic styling for entire html file ends */
+
+/*---------------------------------------------------------------------------------------------------------------------*/
 
 /* Header Styling Start */
-
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,7 +36,7 @@ header h1 {
 }
 
 h1 span {
-    color: #d9dcd6;
+    color: #d9dcd6; /* Specific Styling for Header specifically */
 }
 
 header nav {
@@ -48,9 +51,11 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* Header Styling ends */
 
+/*---------------------------------------------------------------------------------------------------------------------*/
 
-/* Hero Styling */
+/* Hero Styling Starts*/
 .hero{
     height: 800px;
     width: 100%;
@@ -61,8 +66,9 @@ header nav ul li {
 }
 /* Hero styling ends */
 
+/*---------------------------------------------------------------------------------------------------------------------*/
 
-/* Main content styling begins */
+/* Main content styling starts */
 .content {
     width: 75%;
     display: inline-block;
@@ -89,13 +95,14 @@ header nav ul li {
     color: #ffffff;
 }
 
-#online-reputation-management img {
-    float: right;
+#online-reputation-management img {     /* Specific styling for second box in main content only */
+    float: right;   
     margin-left: 25px;
     
 }
 /* Main content styling ends */
 
+/*---------------------------------------------------------------------------------------------------------------------*/
 
 /* Right side icons with subheading section styling starts here */
 .benefits {
@@ -125,9 +132,9 @@ header nav ul li {
 .benefits p {
     padding-bottom: 32px;
 }
-
 /* Right side of page with icons styling end */
 
+/*----------------------------------------------------------------------------------------------------------------------*/
 
 /* Footer Styling Starts*/
 footer {
