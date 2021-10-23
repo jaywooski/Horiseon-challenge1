@@ -1,0 +1,150 @@
+/* Basic styling throughout entire document */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* Basic styling for entire html file ends */
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/* Header Styling Start */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h1 span {
+    color: #d9dcd6; /* Specific Styling for Header specifically */
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Header Styling ends */
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/* Hero Styling Starts*/
+.hero{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+/* Hero styling ends */
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/* Main content styling starts */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content div img {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.content div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.topic{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#online-reputation-management img {     /* Specific styling for second box in main content only */
+    float: right;   
+    margin-left: 25px;
+    
+}
+/* Main content styling ends */
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/* Right side icons with subheading section styling starts here */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    margin-bottom: 32px;
+    color: #ffffff;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits p {
+    padding-bottom: 32px;
+}
+/* Right side of page with icons styling end */
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+/* Footer Styling Starts*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+/* Footer styling ends */
