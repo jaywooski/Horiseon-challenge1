@@ -4,7 +4,7 @@
 Horiseon Social Solution Services, Inc is a web development company that specializes in site-specific advertisement
 features to improve the business production of online sites. Whether a company is looking for social media marketing, online reputation management, or search engine optimization to increase their productivity, Horiseon is there to help.
 
-This site is intended for consumer use to make the homepage of the site easy to read, well-organized, and aesthetically pleasing to view. Please note this is code is in the developmental stage to be claered for approval.
+This site is intended for consumer use to make the homepage of the site easy to read, well-organized, and aesthetically pleasing to view. Please note this is code is in the developmental stage to be cleared for approval.
 
 Horiseon home website is used as a guide for easy marketing advertisement and for the promotion of their top selling services that they offer towards both commercial and personal websites. 
 
